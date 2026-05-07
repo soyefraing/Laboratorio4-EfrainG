@@ -1,15 +1,4 @@
 
-.terraform/
-terraform/.terraform/
-*.exe
-
-
-*.tfstate
-*.tfstate.*
-crash.log
-crash.*.log
-
-
 *.tfvars
 *.tfvars.json
 override.tf
@@ -17,14 +6,20 @@ override.tf.json
 *_override.tf
 *_override.tf.json
 
-
 .terraform.tfstate.lock.info
-
 
 .terraformrc
 terraform.rc
 
-
 !dev.tfvars
 !qa.tfvars
 !prod.tfvars
+
+.terraform/
+terraform/.terraform/
+*.exe
+
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
