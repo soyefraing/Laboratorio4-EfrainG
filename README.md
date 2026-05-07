@@ -5,7 +5,7 @@ Este repositorio alberga la arquitectura de nube y el código backend para un si
 
 ---
 
-## ⚙️ Arquitectura y Tecnologías
+##  Arquitectura y Tecnologías
 La solución se apoya en un stack **Serverless** para garantizar alta disponibilidad y costes optimizados:
 
 * **Procesamiento:** AWS Lambda (Node.js).
@@ -16,15 +16,15 @@ La solución se apoya en un stack **Serverless** para garantizar alta disponibil
 
 ---
 
-## 📂 Organización del Repositorio
+##  Organización del Repositorio
 
-* 📁 `iac/terraform/`: Definiciones de infraestructura, variables y configuraciones de seguridad.
-* 📁 `src/`: Lógica central de las funciones Lambda y recursos estáticos.
-* 📁 `terraform.tfstate.d/`: Gestión de estados lógicos separados por entorno.
+*  `iac/terraform/`: Definiciones de infraestructura, variables y configuraciones de seguridad.
+*  `src/`: Lógica central de las funciones Lambda y recursos estáticos.
+*  `terraform.tfstate.d/`: Gestión de estados lógicos separados por entorno.
 
 ---
 
-## 🌍 Estrategia de Entornos
+##  Estrategia de Entornos
 Utilizamos **Workspaces** para separar el ciclo de vida del proyecto sin duplicar código:
 1.  **Dev:** Pruebas de integración iniciales.
 2.  **QA:** Validación de calidad y flujos de error.
@@ -32,7 +32,7 @@ Utilizamos **Workspaces** para separar el ciclo de vida del proyecto sin duplica
 
 ---
 
-## 🛠️ Guía Rápida de Operación
+##  Guía Rápida de Operación
 
 1. **Inicializar Terraform**
    ```bash
